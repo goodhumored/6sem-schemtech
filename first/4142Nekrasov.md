@@ -29,9 +29,9 @@ y_0 =
 (\bar{x_0} \land \bar{x_1} \land x_2)
 \lor
 (x_0 \land x_1 \land x_2)
+$$
 
-\\
-
+$$
 y_1 = 
 (\bar{x_0} \land \bar{x_1} \land \bar{x_2}) 
 \lor
@@ -51,7 +51,8 @@ y_0 =
 \bar{x_0} \land (x1 \uparrow x2)
 \lor
 x_0 \land x_1
-\\
+$$
+$$
 y_1 = 
 (\bar{x_0} \land (x_2 \rightarrow x_1))
 \lor
