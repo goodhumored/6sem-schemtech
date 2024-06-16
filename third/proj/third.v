@@ -3,7 +3,7 @@ module third (
   output reg [4:0] counter
 ); 
 
-always @(posedge c)
+always @(negedge c)
   counter <= counter == 17 ? 0 : counter + 1;
 
 endmodule
